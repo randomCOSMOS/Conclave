@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="style.css">
     <title>Where Creativity meets Technology</title>
 </head>
@@ -13,8 +14,15 @@
     <nav>
         <img src="./images/logo.png" height="60px" alt="logo">
         <ul class="links">
-            <li><a href="">Home</a></li>
-            <li><a href="">Details</a></li>
+            <li><a href="#">Home</a></li>
+            <li class="drop-down">
+                <a class="droplink" href="#">Details <img src="./images/icon/arrow-down.svg" alt=""></a>
+                <div class="dropdown-content">  
+                    <a href="./details/page1/">How Technology Enhances Creativity</a>
+                    <a href="./details/page2/">How Technology Enhances Creativity</a>
+                    <a href="./details/page3/">How YOU Can Do This</a>
+                </div>
+            </li>
             <li><a href="">Contacts</a></li>
         </ul>
         <ul class="social">
@@ -24,13 +32,13 @@
         </ul>
     </nav>
 
-    <header class="blue">
+    <header>
         <h1>Where <span class="creativity">Creativity</span> <br> Meets <span class="technology">Technology</span></h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati, dolore inventore fugit eveniet dicta
-            enim nulla, unde veritatis molestiae animi nihil est mollitia excepturi adipisci earum maiores delectus
-            tempore nobis?
+        <p>Technology does not quell creativity, in fact, there’s a great deal of evidence that suggests that technology
+            enhances creativity. Certainly, we are expected to be more creative in our working lives than a generation
+            ago.
         </p>
-        <button>Learn More <img src="./images/icon/noun_Arrow_1059158.svg" alt=""></button>
+        <button>Learn More <img src="./images/icon/arrrow-right.svg" alt=""></button>
     </header>
 
 </body>
