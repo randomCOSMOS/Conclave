@@ -1,5 +1,9 @@
-nav ul li:first-of-type a{
+nav ul li:first-of-type a {
     text-decoration: none;
+}
+
+p {
+    font-family: cairo;
 }
 
 header {
@@ -28,4 +32,106 @@ header p {
 
     color: white;
     font-family: cairo;
+}
+
+body>div {
+    max-width: 100vw;
+    color: white;
+    padding: 20px;
+}
+
+body>div p {
+    font-size: 1.2em;
+}
+
+body>div h2 {
+    font-family: "Microsoft PhagsPa";
+    font-size: 3em;
+    margin: 20px 0px;
+}
+
+body>div a {
+    color: white;
+    text-decoration: none;
+}
+
+body>div a:hover {
+    text-decoration: underline;
+}
+
+.creative-process h3 {
+    font-family: "Microsoft PhagsPa";
+    font-size: 1.7em;
+}
+
+.processes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.processes h4 {
+    font-family: "Microsoft PhagsPa";
+    font-size: 1.5em;
+}
+
+.pointers {
+    background-color: #1c1c1c;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 200ms;
+}
+
+.pointers:hover {
+    background-color: #303030;
+}
+
+.pointers:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.ai img {
+    width: 25%;
+    float: right;
+}
+
+.edu h3 {
+    font-family: "Microsoft PhagsPa";
+    font-size: 1.5em;
+    margin-bottom: 0;
+}
+
+.edu li:not(:last-of-type) {
+    margin-top: 20px;
+}
+
+.edu label{
+    cursor: pointer;
+}
+
+.edu img{
+    width: 1%;
+    margin-left: 5px;
+    transition: 200ms;
+}
+
+.edu label:hover>img{
+    transform: translateX(5px);
+}
+
+.edu p {
+    opacity: 0;
+    height: 0px;
+    scale: 0;
+    margin-top: 0;
+}
+
+.hide {
+    display: none;
+}
+
+input[name="edu"]:checked+p {
+    opacity: 1;
+    height: 100%;
+    scale: 1;
+    transition: opacity 400ms;
 }
