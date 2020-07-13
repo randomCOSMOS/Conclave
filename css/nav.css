@@ -1,11 +1,11 @@
 @font-face {
     font-family: tittilium;
-    src: url(./fonts/TitilliumWeb-Bold.ttf)
+    src: url(../fonts/TitilliumWeb-Bold.ttf)
 }
 
 @font-face {
     font-family: cairo;
-    src: url(./fonts/Cairo-SemiBold.ttf)
+    src: url(../fonts/Cairo-SemiBold.ttf)
 }
 
 html{
