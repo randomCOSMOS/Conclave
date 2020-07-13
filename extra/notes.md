@@ -1,5 +1,0 @@
-# Intro
-Technology does not quell creativity, in fact, there’s a great deal of evidence that suggests that technology enhances creativity.  Certainly, we are expected to be more creative in our working lives than a generation ago.
-# page2
-## digital art
-  
