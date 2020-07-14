@@ -5,7 +5,7 @@ nav ul li:first-of-type a {
 header {
     max-height: 100vh;
     min-height: 100vh;
-    background-image: url(../../images/page2/workstation.jpg);
+    background-image: url(../../images/We-are-Experiencing-It-Right-Now/workstation.jpg);
     background-size: cover;
     background-position: bottom;
     background-attachment: fixed;
@@ -34,7 +34,8 @@ header p {
 
 body>div {
     height: 100vh;
-    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
 }
 
 .info {
@@ -59,49 +60,18 @@ body>div {
     margin: 0;
 }
 
-.right .about {
-    grid-template-columns: 70% 30%;
+.about{
+    padding: 20px;
 }
 
-.left .about {
-    grid-template-columns: 30% 70%;
+.right img{
+    width: 30%;
+    float: right;
+    margin-left: 10px;
 }
 
-.about {
-    display: grid;
-    grid-template-rows: 40% 60%;
-    max-width: 100%;
-    padding: 0px 40px 0 20px;
-    column-gap: 20px;
+.left img{
+    float: left;
+    width: 30%;
+    margin-right: 10px
 }
-
-.first {
-    grid-row: 1/2;
-}
-
-.right .first {
-    grid-column: 1/2;
-}
-
-.left .first {
-    grid-column: 2/3;
-}
-
-.about img {
-    grid-row: 1/2;
-    width: 100%;
-}
-
-.right img {
-    grid-column: 2/3;
-}
-
-.left img {
-    grid-column: 1/2;
-}
-
-.last {
-    grid-row: 2/3;
-    grid-column: 1/3;
-}
-

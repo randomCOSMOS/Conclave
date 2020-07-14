@@ -46,7 +46,11 @@ header button{
     color: white;
     border-radius: 15px;
     transition:300ms;
-    box-shadow: 0px 5px 5px rgba(0,0,0,0.7)
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.7);
+}
+
+header a{
+    text-decoration: none;
 }
 
 header button:hover{
