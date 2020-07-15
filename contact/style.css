@@ -16,6 +16,7 @@ header h1 {
     font-family: tittilium;
     font-size: 4em;
     color: white;
+    margin-bottom: 0;
 }
 
 header h3 {
@@ -80,12 +81,14 @@ input:last-of-type{
     color: white;
     margin-top: 10px;
     cursor: pointer;
-    transition: 200ms;
+    transition: background-color 200ms;
 }
 
 input:last-of-type:hover{
     background-color: #075f5c;
 }
 
-input[type="text"],
-input[type="email"] {}
+input:focus,
+textarea:focus{
+    box-shadow: 0px 0px 10px 1px #079c97;
+}
