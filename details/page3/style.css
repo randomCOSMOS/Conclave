@@ -11,10 +11,9 @@ header {
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: flex-end;
     padding-left: 20px;
-    text-align: right;
 }
 
 header h1 {
@@ -23,6 +22,7 @@ header h1 {
     font-family: tittilium;
     margin-bottom: 10px;
     width: 100vw;
+    text-align: right;
 }
 
 header h1 p{
@@ -30,11 +30,11 @@ header h1 p{
 }
 
 .first-line{
-    margin-right: 15%;
+    margin-right: 17%;
 }
 
 .last-line{
-    margin-right: 17%;
+    margin-right: 19%;
 }
 
 .black{
@@ -48,4 +48,56 @@ header>p {
 
     color: white;
     font-family: cairo;
+}
+
+body>div{
+    max-width: 100vw;
+    min-width: 100vw;
+    height: 100vh;
+}
+
+.info {
+    color: white;
+}
+
+.info h1 {
+    padding: 40px 20px 20px 20px;
+    margin: 0;
+    font-family: "Microsoft PhagsPa";
+    font-size: 3em;
+}
+
+.info h5 {
+    padding-left: 20px;
+    margin: 0;
+    font-family: "Microsoft PhagsPa";
+    font-size: 1.5em;
+}
+
+.info hr {
+    width: 25vw;
+    margin-left: 20px;
+}
+
+.info p,
+.info li {
+    font-family: cairo;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.about {
+    padding: 20px;
+}
+
+.right img {
+    width: 30%;
+    float: right;
+    margin-left: 10px;
+}
+
+.left img {
+    float: left;
+    width: 30%;
+    margin-right: 10px
 }

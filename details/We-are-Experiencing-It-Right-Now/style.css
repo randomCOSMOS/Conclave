@@ -11,7 +11,7 @@ header {
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
     align-items: center;
     padding-left: 20px;
     text-align: center;
@@ -38,6 +38,15 @@ body>div {
     max-width: 100vw;
 }
 
+body>div a {
+    color: white;
+    text-decoration: none;
+}
+
+body>div a:hover {
+    text-decoration: underline;
+}
+
 .info {
     color: white;
 }
@@ -54,7 +63,8 @@ body>div {
     margin-left: 20px;
 }
 
-.info p {
+.info p,
+.info li {
     font-family: cairo;
     font-size: 1.2em;
     margin: 0;

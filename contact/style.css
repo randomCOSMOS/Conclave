@@ -1,0 +1,91 @@
+header {
+    max-width: 100vw;
+    min-width: 100vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/contact/contact.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header h1 {
+    font-family: tittilium;
+    font-size: 4em;
+    color: white;
+}
+
+header h3 {
+    font-family: tittilium;
+    font-size: 1.5em;
+    color: white;
+    margin: 0;
+}
+
+.contact {
+    display: flex;
+    padding: 20px 25px;
+    justify-content: space-around;
+    color: white;
+}
+
+form h2 {
+    font-family: "Microsoft PhagsPa";
+    font-size: 2em;
+}
+
+label {
+    display: block;
+    font-family: cairo;
+}
+
+label:not(:first-of-type) {
+    margin-top: 20px;
+}
+
+.contact-detail {
+    width: 20%;
+}
+
+.contact-detail h3 {
+    font-family: "Microsoft PhagsPa";
+}
+
+.contact-detail p {
+    font-family: cairo;
+}
+
+.contact-detail a {
+    color: #41c8c2;
+}
+
+input:not(:last-of-type),
+textarea {
+    border: none;
+    font-family: cairo;
+    font-size: 1em;
+    padding: 5px 10px;
+    width: 100%;
+}
+
+input:last-of-type{
+    padding: 5px 30px;
+    font-family: cairo;
+    font-size: 0.75em;
+    background-color: #079c97;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+input:last-of-type:hover{
+    background-color: #075f5c;
+}
+
+input[type="text"],
+input[type="email"] {}
