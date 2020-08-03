@@ -72,6 +72,10 @@ textarea {
     width: 100%;
 }
 
+textarea{
+    resize: vertical;
+}
+
 input:last-of-type{
     padding: 5px 30px;
     font-family: cairo;

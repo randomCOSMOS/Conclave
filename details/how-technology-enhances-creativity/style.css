@@ -119,10 +119,9 @@ body>div a:hover {
 }
 
 .edu p {
-    opacity: 0;
     height: 0px;
-    scale: 0;
     margin-top: 0;
+    display: none;
 }
 
 .hide {
@@ -130,8 +129,6 @@ body>div a:hover {
 }
 
 input[name="edu"]:checked+p {
-    opacity: 1;
     height: 100%;
-    scale: 1;
-    transition: opacity 400ms;
+    display: block;
 }
